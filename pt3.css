@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name-content {
+  margin-right: 7rem;
+}
+
+.name-content .logo {
+  font-size: 3.5rem;
+  color: #1877f2;
+}
+
+.name-content p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: #737373;
+}
+
+form {
+  display: flex;
+  border: 2px solid #e8e8e8;
+  flex-direction: column;
+  background: #fff;
+  padding: 3rem;
+  padding-top: 6rem;
+  width: 400px;
+}
+
+form input {
+  outline: none;
+  padding: 1rem 1.5rem 1rem 1rem ;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  border: 1px solid #e8e8e8;
+  background-color: #fafafa;
+}
+
+form input:focus {
+  border: 1px solid #1877f2;
+}
+
+form .login {
+  outline: none;
+  border: none;
+  background: #4cb5f9;
+  padding: 1rem 8rem 1rem 8rem;
+  border-radius: 0.6rem;
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+form .login:hover {
+  background: #0095f6;
+  cursor: pointer;
+}
+
+form .facebook {
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  background: #048ce7;
+  padding: 0.3rem 9rem 1rem 9rem;
+  border-radius: 0.6rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+form .facebook:hover {
+  background: #41a1e1;
+  cursor: pointer;
+}
+
+form a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 0.8rem;
+  color: #527fb2;
+}
+
+form hr {
+  background: #f7f7f7;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+}
+
+/* //.........Media Query.........// */
+
+  html {
+    font-size: 60%;
+  }
+
+  .name-content {
+    margin: 0;
+    text-align: center;
+  }
+
+  
+.loginbutton{
+  margin: 5px;
+  height: fit-content;
+  padding-top: 3rem ;
+  
+}
+
+ .main {
+    width: 400px;
+    height: fit-content;
+}
+
+
+  .flex-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+.face{
+  position: relative;
+  top: 3px;
+  left: -7px;
+}
+
+.appRedirect{
+  border: none;
+  position: relative;
+  left: 50px;
+}
+
+.appRedirectM{
+  border: none;
+  position: relative;
+  left: 65px;
+}
+
+.or{
+  position: relative;
+  left: 145px;
+  top: 23px;
+}
